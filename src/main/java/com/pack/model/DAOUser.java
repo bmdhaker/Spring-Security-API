@@ -55,4 +55,9 @@ public class DAOUser {
 		this.password = password;
 	}
 
+	@Override
+	public String toString() {
+		return "DAOUser [username=" + username + ", email=" + email + ", password=" + password + "]";
+	}
+
 }
